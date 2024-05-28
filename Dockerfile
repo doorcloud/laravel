@@ -6,7 +6,7 @@ ENV PHP_EXTENSION_GD=1
 
 ENV TEMPLATE_PHP_INI=production
 
-COPY .env.example /var/www/html
+COPY --chown=docker:docker .env.example /var/www/html/.env
 
 COPY --chown=docker:docker . /var/www/html
 
