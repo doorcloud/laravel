@@ -84,7 +84,7 @@ Remplacez your_dockerhub_username par votre nom d'utilisateur Docker Hub.
 Poussez l'image taguée sur Docker Hub :
 
 ```
-docker push your_dockerhub_username/my-php-app:latest
+docker push your_dockerhub_username/door-laravel:latest
 ```
 
 
