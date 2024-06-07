@@ -1,18 +1,16 @@
-# Launching a Laravel (PHP) Application with Docker
+# Launching a [Laravel](https://laravel.com/docs/) (PHP) Application with Docker
 
-This guide explains how to set up and launch a Laravel (PHP) application with Apache using Docker.
+This guide explains how to set up and launch a [Laravel](https://laravel.com/docs/) (PHP) application with Apache using Docker.
 
 ## Prerequisites
 
 Before starting, ensure you have the following tools installed on your machine:
 
 - [Docker](https://www.docker.com/products/docker-desktop)
-- [Composer](https://getcomposer.org/)
-- [Laravel](https://laravel.com/docs/)
 
 ## Dockerfile Content
 
-This Dockerfile configures a container for a Laravel (PHP) application with Apache. It installs the PHP `gd` extension, configures PHP to use the production environment, and installs PHP dependencies via Composer.
+This Dockerfile configures a container for a [Laravel](https://laravel.com/docs/) (PHP) application with Apache. It installs the PHP `gd` extension, configures PHP to use the production environment, and installs PHP dependencies via Composer.
 
 ```Dockerfile
 ARG PHP_EXTENSIONS="gd"
